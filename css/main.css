@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+}
+
+h2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+#inputNumber, #total {
+    text-align: center;
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    background-color: transparent;
+    color: black;
+    margin: 50px;
+    cursor: pointer;
+    font-size: 35px;
+  }
+
+#addButton, #subtractButton {
+    text-align: center;
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    background-color: gray;
+    color: white;
+    margin: 50px;
+    cursor: pointer;
+    font-size: 35px;
+  }
+
+  #addButton:hover, #subtractButton:hover {
+    background-color: white;
+    color: gray;
+  }
+
+  #total {
+      border: none;
+  }
